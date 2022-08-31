@@ -87,13 +87,15 @@ export default function Home() {
             {/* Breadcrumb */}
             <div className="flex items-center">
               <a href="#">
-                <SearchIcon className="text-gray-500 w-5 h-5 mx-2" />
+                <SearchIcon className="text-gray-500 w-5 h-5 mx-1 sm:mx-2" />
               </a>
               <a href="#">
-                <BellIcon className="text-gray-500 w-5 h-5 mr-2 lg:mr-6 " />
+                <BellIcon className="text-gray-500 w-5 h-5 mr-1 lg:mr-6 " />
               </a>
-              <Image alt="avatar" width={32} height={32} src="/avatar.jpg" className="rounded-full" />
-              <p className="font-semibold text-sm ml-2 whitespace-nowrap">John Doe</p>
+              <div className="relative w-8 h-8">
+                <Image alt="avatar" layout='fill' src="/avatar.jpg" className="rounded-full" />
+              </div>
+              <p className="font-semibold text-sm ml-1 sm:ml-2 whitespace-nowrap">John Doe</p>
             </div>
           </nav>
           {/* Topnav  */}
