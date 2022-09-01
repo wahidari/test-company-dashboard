@@ -121,7 +121,7 @@ export default function Home() {
                   leaveFrom="transform opacity-100 scale-100"
                   leaveTo="transform opacity-0 scale-95"
                 >
-                  <Menu.Items className="absolute z-10 -right-16 sm:right-0 mt-6 w-64 p-4 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
+                  <Menu.Items className="absolute z-10 -right-16 sm:right-0 mt-4 md:mt-2 w-64 p-4 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
                     <div className="px-1 py-1">
                       <input className="text-sm transition-all w-full px-3 py-[0.5rem] rounded-md
           dark:text-white bg-white dark:bg-neutral-700  
@@ -151,7 +151,7 @@ export default function Home() {
                   leaveFrom="transform opacity-100 scale-100"
                   leaveTo="transform opacity-0 scale-95"
                 >
-                  <Menu.Items className="absolute z-10 -right-10 sm:right-0 mt-6 w-64 p-4 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
+                  <Menu.Items className="absolute z-10 -right-10 sm:right-0 mt-4 md:mt-2 w-64 p-4 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
                     <div className="px-1 py-1">
                       <p className="text-sm text-gray-700 dark:text-gray-200 mb-2">Yusron menambahkan lokasi baru Kantor Cabang Jagakarsa</p>
                       <p className="text-xs text-gray-400 dark:text-gray-500">Hari ini, 06:00</p>
@@ -180,7 +180,7 @@ export default function Home() {
                   leaveFrom="transform opacity-100 scale-100"
                   leaveTo="transform opacity-0 scale-95"
                 >
-                  <Menu.Items className="absolute z-10 right-0 mt-4 w-40 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
+                  <Menu.Items className="absolute z-10 right-0 mt-4 md:mt-2 w-40 origin-top-right bg-white dark:bg-neutral-700 shadow-lg rounded-lg">
                     <div className="px-1 py-1 ">
                       <Menu.Item>
                         {({ active }) => (
